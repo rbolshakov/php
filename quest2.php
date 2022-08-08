@@ -8,7 +8,8 @@ $quest3 = readline("Введите ТРЕТЬЮ задачу на сегодня
 $quest3Time = (int)readline("Сколько примерно времени эта задача займет?: ");
 $res = $quest1Time + $quest2Time + $quest3Time;
 
-echo "{$name}, у вас запланировано 3 приоритетных задачи на день:
+echo "
+{$name}, у вас запланировано 3 приоритетных задачи на день:
 - {$quest1} ({$quest1Time}ч)
 - {$quest2} ({$quest2Time}ч)
 - {$quest3} ({$quest3Time}ч)
