@@ -37,3 +37,16 @@ $box = [
     ]
   ]
 ];
+
+function searchInTheBox(array $arr, string $item): void
+{
+  foreach ($arr as $val) {
+    if (is_array($val)) {
+      searchInTheBox($val, '');
+    } else {
+      echo $val . " ";
+    }
+  }
+}
+
+searchInTheBox($box, 'Книга');
