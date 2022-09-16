@@ -2,7 +2,7 @@
 require_once 'model/User.php';
 session_start();
 
-$pageHeader = 'Добро пожаловать';
+$pageHeader = 'WELCOME TO TODO LIST';
 
 
 if (isset($_GET['action']) && $_GET['action'] === 'logout') {
